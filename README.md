@@ -4,6 +4,8 @@
 Frontend for application that allows users to browse and add duck sightings.
 Backend by [Vincit](https://github.com/vincit/summer-2018)
 
+Made with React & Semantic UI
+
 ### Challenge
 
 > Vaihtoehto A) Selainsovellus

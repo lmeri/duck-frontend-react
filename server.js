@@ -93,9 +93,9 @@ app.use((req, res, next) => {
 app.use(express.static('build'))
 app.use(bodyParser.json());
 
-app.get('/', function(req, res){
-  res.sendFile(__dirname + '/index.html')
-})
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/index.html');
+});
 
 app.get('/sightings', (req, res) => {
   res.json(sightings);
